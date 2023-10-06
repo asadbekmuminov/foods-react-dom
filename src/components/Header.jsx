@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaMoon, FaSun } from "react-icons/fa";
+import { Link } from "react-router-dom";
 function getThemeFromLocalStorage() {
   return localStorage.getItem("theme") || "light";
 }
@@ -15,9 +16,11 @@ function Header() {
     });
   };
   return (
-    <nav className="bg-teal-200  ">
-      <div className="align-element flex items-center py-5 mb-10 ">
-        <p className="text-3xl font-black text-black">Foods</p>
+    <nav className="bg-teal-200 mb-10  ">
+      <div className="align-element flex items-center py-5 ">
+        <Link to={"/"} className="text-3xl font-black text-black">
+          Foods
+        </Link>
         <span
           className="ml-auto cursor-pointer"
           onClick={ChangeMode}
@@ -25,6 +28,9 @@ function Header() {
         >
           {mode == "light" ? <FaMoon /> : <FaSun />}
         </span>
+        <Link to={"create"} className="btn btn-outline ml-3">
+          Create
+        </Link>
       </div>
     </nav>
   );

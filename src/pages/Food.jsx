@@ -14,12 +14,9 @@ function Food() {
   return (
     <div>
       {food && (
-        <div className="card w-full bg-base-100 shadow-xl image-full mb-24">
+        <div className="card w-full bg-base-100 shadow-xl image-full mb-24 max-h-[600px] ">
           <figure>
-            <img
-              src="https://www.realsimple.com/thmb/w5geXAkGNIPl694NoAIifjRDQLQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/healthiest-food-for-every-day-2000-e807f4237f3345769c78114cca8c5f4a.jpg"
-              alt="Shoes"
-            />
+            <img className="w-full object-cover" src={food.img} alt="Shoes" />
           </figure>
           <div className="card-body">
             <h2 className="card-title mx-auto text-4xl font-black text-white">
