@@ -10,7 +10,11 @@ function FoodsList({ foods }) {
             className="card card-compact max-w-96 md:max-w-full  bg-base-100 shadow-xl"
           >
             <figure>
-              <img src={img} alt="Shoes" />
+              <img
+                src={img}
+                className="object-cover w-full h-[300px]"
+                alt="Shoes"
+              />
             </figure>
             <div className="card-body">
               <h2 className="card-title text-4xl">{title}</h2>

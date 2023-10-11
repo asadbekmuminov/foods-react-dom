@@ -28,7 +28,7 @@ function Header() {
         >
           {mode == "light" ? <FaMoon /> : <FaSun />}
         </span>
-        <Link to={"create"} className="btn btn-outline ml-3">
+        <Link to={"create"} className="btn btn-active btn-accent ml-5">
           Create
         </Link>
       </div>

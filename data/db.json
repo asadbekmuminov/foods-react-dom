@@ -3,7 +3,12 @@
     {
       "id": "1",
       "title": "Veggie Stew",
-      "ingredients": ["1 Carrot", "1 Leek", "200g Tofu", "300ml Veg stock"],
+      "ingredients": [
+        "1 Carrot",
+        "1 Leek",
+        "200g Tofu",
+        "300ml Veg stock"
+      ],
       "method": "1. Pre-heat the oven to 200C/3C/gas 5. Place the carrot, leek and tofu in a large bowl. Add the stock and mix well. 2. Add the rest of the ingredients and mix well. 3. Place the mixture in a large bowl and cover with a lid. 4. Place the lid on the oven and cook for 40 minutes. 5. Serve with a slaw of your choice",
       "cookingTime": "45 minutes",
       "img": "https://theveglife.com/wp-content/uploads/2014/11/Vegetable-Stew-SHARPER.jpg"
@@ -34,6 +39,20 @@
       "method": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse minima ex rem quis similique eum ratione quaerat, voluptas molestias ut repudiandae delectus voluptates. Eius esse at tenetur ab accusamus excepturi?",
       "cookingTime": "35 minutes",
       "img": "https://ifoodreal.com/wp-content/uploads/2020/06/fg-greek-salad.jpg"
+    },
+    {
+      "id": "dfd77770-0233-4a80-bedf-4cd5c1cdf50d",
+      "cookingTime": "45 minutes",
+      "img": "https://apps.bringo.uz/public/assets/products/250x250/1007741_3602252181.jpg",
+      "title": "Osh",
+      "method": "\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse id nunc semper, condimentum libero a, condimentum quam. Suspendisse porta rhoncus mi, vitae semper ipsum. Fusce vel sapien id dui mattis vulputate eu a turpis. Etiam diam magna, facilisis at pulvinar quis, suscipit at neque. Suspendisse nec quam vitae justo mattis imperdiet nec a ipsum. Nunc porta iaculis dapibus. Aenean sed aliquet lorem, et imperdiet risus. Nunc imperdiet efficitur magna a volutpat. Nunc eget mauris molestie, bibendum sapien id, fringilla libero.",
+      "ingredients": [
+        "Tuz",
+        "Go'sht",
+        "Sabzi",
+        "Gurush",
+        "Yog'"
+      ]
     }
   ]
 }
