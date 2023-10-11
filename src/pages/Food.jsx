@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Food() {
   const { id } = useParams();
-  const url = "https://feather-workable-soybean.glitch.me/recipes/" + id;
+  const url = "https://neon-recondite-turn.glitch.me/recipes/" + id;
   const { data: food, isPending, error } = useFetch(url);
   if (isPending) {
     return (

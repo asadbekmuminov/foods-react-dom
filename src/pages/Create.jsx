@@ -13,7 +13,7 @@ function Create() {
   const navigate = useNavigate();
 
   const { data, isPending, error, getNewResipes } = useFetch(
-    "https://feather-workable-soybean.glitch.me/recipes",
+    "https://neon-recondite-turn.glitch.me/recipes",
     "POST"
   );
   const handleAdd = (e) => {
@@ -53,7 +53,7 @@ function Create() {
           type="text"
           required
           placeholder="Title"
-          className="input input-bordered input-accent w-full max-w-xs font-bold text-white"
+          className="input input-bordered input-accent w-full max-w-xs font-black text-teal-500"
           onChange={(e) => {
             setTitle(e.target.value);
           }}
@@ -63,7 +63,7 @@ function Create() {
           type="text"
           required
           placeholder="Cooking time"
-          className="input input-bordered input-accent w-full max-w-xs font-bold text-white"
+          className="input input-bordered input-accent w-full max-w-xs font-bold text-teal-500"
           onChange={(e) => {
             setCookingTime(e.target.value);
           }}
@@ -74,7 +74,7 @@ function Create() {
             type="text"
             required
             placeholder="Ingredient"
-            className="input input-bordered input-accent w-full max-w-xs font-bold text-white"
+            className="input input-bordered input-accent w-full max-w-xs font-bold text-teal-500"
             onChange={(e) => {
               setIngredient(e.target.value);
             }}
@@ -89,7 +89,7 @@ function Create() {
           {ingredients &&
             ingredients.map((ing) => {
               return (
-                <span className="text-white" key={ing}>
+                <span className="text-teal-500" key={ing}>
                   {" "}
                   {ing},{" "}
                 </span>
@@ -100,7 +100,7 @@ function Create() {
           type="text"
           required
           placeholder="Method"
-          className="textarea input-bordered input-accent w-full max-w-xs font-bold text-white"
+          className="textarea input-bordered input-accent w-full max-w-xs font-bold text-teal-500"
           onChange={(e) => {
             setMethod(e.target.value);
           }}
@@ -110,7 +110,7 @@ function Create() {
           type="url"
           required
           placeholder="Image URL"
-          className="input input-bordered input-accent w-full max-w-xs font-bold text-white"
+          className="input input-bordered input-accent w-full max-w-xs font-bold text-teal-500"
           onChange={(e) => {
             setImg(e.target.value);
           }}
