@@ -13,7 +13,7 @@ function Create() {
   const navigate = useNavigate();
 
   const { data, isPending, error, getNewResipes } = useFetch(
-    "https://neon-recondite-turn.glitch.me/recipes",
+    "https://excited-shore-ring.glitch.me/recipes",
     "POST"
   );
   const handleAdd = (e) => {

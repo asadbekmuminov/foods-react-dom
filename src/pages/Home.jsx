@@ -6,7 +6,7 @@ function Home() {
     data: foods,
     isPending,
     error,
-  } = useFetch(" https://neon-recondite-turn.glitch.me/recipes");
+  } = useFetch(" https://excited-shore-ring.glitch.me/recipes");
   if (isPending) {
     return (
       <span className="loading loading-lg text-accent  absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></span>
